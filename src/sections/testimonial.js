@@ -13,9 +13,8 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
-    description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    title: 'Transformative Data Security Solutions',
+    description: 'Entrusting our cybersecurity needs to Stagic has been transformative. Their customized security strategy not only safeguards our data but enhances operational efficiency. Stagic is an indispensable partner in our journey toward a secure digital future.',
     avatar: Avatar1,
     name: 'Denny Hilguston',
     designation: '@denny.hil',
@@ -23,9 +22,8 @@ const data = [
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
-    description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    title: 'Confidence in Small Business Security',
+    description: 'Choosing Stagic was one of the best decisions for our small business. Their dedication to data security has given us the confidence to focus on growth. Stagic not only protected our information but also educated us on maintaining a secure digital presence. Highly recommended!',
     avatar: Avatar2,
     name: 'Denny Hilguston',
     designation: '@denny.hil',
@@ -33,9 +31,8 @@ const data = [
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
-    description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    title: 'Elevating Cybersecurity Resilience',
+    description: "Working with Stagic has been collaborative and empowering. Their comprehensive cybersecurity solution has significantly elevated our organization's resilience against evolving cyber threats. Grateful for Stagic's expertise and commitment.",
     avatar: Avatar3,
     name: 'Denny Hilguston',
     designation: '@denny.hil',
@@ -43,9 +40,8 @@ const data = [
   },
   {
     id: 4,
-    title: 'Modern look & trending design',
-    description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    title: 'Healthcare Compliance Excellence',
+    description: "In the highly regulated healthcare industry, Stagic is the ideal partner for data security and compliance. Their depth of knowledge in healthcare regulations, coupled with a proactive approach to cybersecurity, ensures our patient data remains secure and our organization stays compliant. Stagic's professionalism exceeds expectations.",
     avatar: Avatar4,
     name: 'Denny Hilguston',
     designation: '@denny.hil',
