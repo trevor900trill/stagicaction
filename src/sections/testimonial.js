@@ -13,11 +13,11 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    title: 'Transformative Data Security Solutions',
+    title: 'Transformative Data Security',
     description: 'Entrusting our cybersecurity needs to Stagic has been transformative. Their customized security strategy not only safeguards our data but enhances operational efficiency.',
     avatar: Avatar1,
-    name: 'Lucas Bennett',
-    designation: '@lucas.b',
+    name: 'Zoe Rodriguez',
+    designation: '@zoe.rodriguez',
     review: 4,
   },
   {
@@ -41,10 +41,10 @@ const data = [
   {
     id: 4,
     title: 'Healthcare Compliance Excellence',
-    description: "In the highly regulated healthcare industry, Stagic is the ideal partner for data security and compliance. Stagic ensures our patient data remains secure and our organization stays compliant. Stagic's professionalism exceeds expectations.",
+    description: "In the highly regulated healthcare industry, Stagic is the ideal partner for data security and compliance. Stagic's professionalism exceeds expectations.",
     avatar: Avatar4,
-    name: 'Zoe Rodriguez',
-    designation: '@zoe.rodriguez',
+    name: 'Lucas Bennett',
+    designation: '@lucas.b',
     review: 4,
   },
 ];
