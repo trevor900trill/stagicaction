@@ -32,7 +32,7 @@ const data = [
   {
     id: 3,
     title: 'Elevating Cybersecurity Resilience',
-    description: "Working with Stagic has been collaborative and empowering. Their comprehensive cybersecurity solution has significantly elevated our organization's resilience against evolving cyber threats. Grateful for Stagic's expertise and commitment.",
+    description: "Their comprehensive cybersecurity solution has significantly elevated our organization's resilience against evolving cyber threats. Grateful for Stagic's expertise and commitment.",
     avatar: Avatar3,
     name: 'Max Harper',
     designation: '@max.harper',
