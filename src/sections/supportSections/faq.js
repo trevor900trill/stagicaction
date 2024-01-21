@@ -86,7 +86,7 @@ const FAQ = () => {
               Do you have any quesiton? Please ask here, we are ready to support
             </Heading>
             <Text as="p">
-              If your question is not list here, please feel free to reach out to us.
+              If your question is not listed here, please feel free to reach out to us.
             </Text>
             <Button
               variant="primary"
