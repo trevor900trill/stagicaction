@@ -15,6 +15,11 @@ export default [
     ref: "/",
   },
   {
+    path: "clients",
+    label: "Clients",
+    ref: "/",
+  },
+  {
     path: "service",
     label: "Service",
     ref: "/about",
@@ -22,6 +27,11 @@ export default [
   {
     path: "journey",
     label: "Journey",
+    ref: "/about",
+  },
+  {
+    path: "mission",
+    label: "Mission",
     ref: "/about",
   },
   {

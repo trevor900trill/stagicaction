@@ -163,7 +163,8 @@ export default {
       fontSize: [2, 3, 4, '17px', null, 3, '19px', 4],
       lineHeight: [2, null, null, null, 2.2],
       fontWeight: 'body',
-      pr: [0, null, null, null, null, '100px', null, '125px'],
+      // pr: [0, null, null, null, null, '100px', null, '125px'],
+      pr: [0, null, null, null, null, null, null, null],
       mb: ['35px', null, null, null, '40px', null, null, 7],
     },
     title: {

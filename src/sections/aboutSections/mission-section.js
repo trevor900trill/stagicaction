@@ -7,6 +7,7 @@ import ModalVideo from "react-modal-video";
 import { FaPlayCircle } from "react-icons/fa";
 import BannerBG from "assets/bannerBg.png";
 import BannerThumb from "assets/banner-thumb.png";
+import TextFeature from "components/text-feature";
 import client1 from "assets/sponsor/paypal.svg";
 import client2 from "assets/sponsor/google.svg";
 import client3 from "assets/sponsor/dropbox.svg";
@@ -32,31 +33,32 @@ const data = [
   },
 ];
 
-export default function Banner() {
+export default function MissionSection() {
   return (
-    <section sx={styles.banner} id="service">
+    <section sx={{ ...styles.banner, marginBottom: 8 }} id="mission">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading
-            as="h1"
+            as="h2"
             variant="heroPrimary"
             style={styles.banner.contentBox.textElements}
           >
-            We optimize customer support, secure data, and overall strategy.
+            Our Mission
           </Heading>
           <Text
             as="p"
             variant="heroSecondary"
             style={styles.banner.contentBox.textElements}
           >
-            No matter what business model, industry, and degree of
-            digitalization they are in.
+            At Stagic, our mission is to empower businesses by optimizing
+            customer support, securing data, and enhancing overall strategic
+            initiatives. We are committed to providing cutting-edge solutions
+            that not only meet but exceed the evolving needs of our clients.
+            Through innovation and a relentless pursuit of excellence, we strive
+            to be the driving force behind our clients' success, ensuring they
+            navigate the digital landscape with confidence and achieve their
+            strategic goals.
           </Text>
-          <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Learn More
-            </Button>
-          </Flex>
         </Box>
       </Container>
     </section>
@@ -72,8 +74,8 @@ const styles = {
     backgroundRepeat: `no-repeat`,
     backgroundPosition: "top left",
     backgroundSize: "cover",
-    pt: ["150px", null, null, null, null, null, "140px", "130px"],
-    pb: ["100px", null, null, "110px", null, 10, "150px"],
+    pt: ["120px", null, null, null, null, null, "110px", "100px"],
+    pb: ["70px", null, null, "80px", null, 10, "120px"],
     backgroundColor: "primary",
     container: {
       display: "flex",
@@ -86,15 +88,7 @@ const styles = {
       flexShrink: 0,
       pt: [0, null, null, null, null, null, 5, 7],
       textElements: {
-        textAlign: [
-          "left",
-          "center",
-          "center",
-          "center",
-          "center",
-          "center",
-          "center",
-        ],
+        textAlign: "center",
       },
     },
   },

@@ -42,9 +42,5 @@ export default {
       path: '/',
       label: 'Support',
     },
-    {
-      path: '/',
-      label: 'Contact',
-    },
   ],
 };

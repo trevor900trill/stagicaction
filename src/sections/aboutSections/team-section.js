@@ -97,62 +97,8 @@ const data = [
   {
     id: 4,
     imgSrc: Member4,
-    altText: "Veronika Tauts",
-    title: "Veronika Tauts",
-    designation: "Developer",
-    socialProfile: [
-      {
-        id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
-      },
-    ],
-  },
-  {
-    id: 5,
-    imgSrc: Member5,
-    altText: "Akshay Rohilia",
-    title: "Akshay Rohilia",
-    designation: "Security Analyst",
-    socialProfile: [
-      {
-        id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
-      },
-    ],
-  },
-  {
-    id: 6,
-    imgSrc: Member6,
-    altText: "Sarvesh Mundhe",
-    title: "Sarvesh Mundhe",
+    altText: "Julia Larsen",
+    title: "Julia Larsen",
     designation: "Developer",
     socialProfile: [
       {

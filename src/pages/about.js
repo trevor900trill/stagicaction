@@ -7,6 +7,7 @@ import Layout from "components/layout";
 import Banner from "sections/aboutSections/banner";
 import TeamSection from "sections/aboutSections/team-section";
 import JourneySection from "sections/aboutSections/journey-section";
+import MissionSection from "sections/aboutSections/mission-section";
 
 export default function AboutPage() {
   return (
@@ -16,6 +17,7 @@ export default function AboutPage() {
           <SEO title="About" />
           <Banner />
           <JourneySection /> 
+          <MissionSection />
           <TeamSection />
         </Layout>
       </StickyProvider>
