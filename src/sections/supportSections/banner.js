@@ -13,25 +13,25 @@ export default function Banner() {
             variant="heroPrimary"
             style={styles.banner.contentBox.textElements}
           >
-            We optimize customer support, secure data, and overall strategy.
+            Support
           </Heading>
           <Text
             as="p"
             variant="heroSecondary"
             style={styles.banner.contentBox.textElements}
           >
-            No matter what business model, industry, and degree of
-            digitalization they are in.
+            For assistance or information, explore our FAQs or contact us via
+            Email.
           </Text>
           <Flex>
             <Link
               activeClass="active"
-              to="journey"
+              to="support"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              key={9999}
+              key={999}
             >
               <Button variant="whiteButton" aria-label="Get Started">
                 Learn More

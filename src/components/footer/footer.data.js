@@ -39,7 +39,7 @@ export default {
       label: 'About Us',
     },
     {
-      path: '/',
+      path: '/support',
       label: 'Support',
     },
   ],
