@@ -97,9 +97,9 @@ const data = [
   {
     id: 4,
     imgSrc: Member4,
-    altText: "Lina Jutila",
-    title: "Lina Jutila",
-    designation: "Web Developer",
+    altText: "Veronika Tauts",
+    title: "Veronika Tauts",
+    designation: "Developer",
     socialProfile: [
       {
         id: 1,
@@ -124,9 +124,9 @@ const data = [
   {
     id: 5,
     imgSrc: Member5,
-    altText: "Saimon Harmer",
-    title: "Saimon Harmer",
-    designation: "Web Designer",
+    altText: "Akshay Rohilia",
+    title: "Akshay Rohilia",
+    designation: "Security Analyst",
     socialProfile: [
       {
         id: 1,
@@ -151,9 +151,9 @@ const data = [
   {
     id: 6,
     imgSrc: Member6,
-    altText: "Aaron Nunez",
-    title: "Aaron Nunez",
-    designation: "Web Designer",
+    altText: "Sarvesh Mundhe",
+    title: "Sarvesh Mundhe",
+    designation: "Developer",
     socialProfile: [
       {
         id: 1,
