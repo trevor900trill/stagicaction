@@ -1,12 +1,13 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import { Container, Flex, Box, Heading, Text, Image, Button } from "theme-ui";
+import { Container, Flex, Box, Heading, Text, Button } from "theme-ui";
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 // import { Link } from "components/link";
 import { FaPlayCircle } from "react-icons/fa";
 import BannerBG from "assets/bannerBg.png";
 import BannerThumb from "assets/banner-thumb.png";
+import { Link } from "react-scroll";
 import client1 from "assets/sponsor/paypal.svg";
 import client2 from "assets/sponsor/google.svg";
 import client3 from "assets/sponsor/dropbox.svg";
@@ -53,9 +54,19 @@ export default function Banner() {
             digitalization they are in.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Learn More
-            </Button>
+            <Link
+              activeClass="active"
+              to="journey"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              key={9999}
+            >
+              <Button variant="whiteButton" aria-label="Get Started">
+                Learn More
+              </Button>
+            </Link>
           </Flex>
         </Box>
       </Container>
