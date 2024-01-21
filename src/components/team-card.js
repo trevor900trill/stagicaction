@@ -1,11 +1,14 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Text, Heading, Image, Box, Link } from 'theme-ui';
+import JohnDoe from "assets/realjohndoe.png";
 
 export default function TeamCard({ src, altText, title, designation, social }) {
   return (
     <Box sx={styles.card}>
-      <Image src={src} alt={altText} sx={styles.memberThumb} />
+      {/* <Image src={src} alt={altText} sx={styles.memberThumb} /> */}
+      <Image src={JohnDoe} alt={altText} sx={styles.memberThumb} />
+
       <Box sx={styles.infoWrapper}>
         <Heading className="info__name" sx={styles.infoWrapper.name}>
           {title}

@@ -49,7 +49,11 @@ export default function Banner() {
           >
             We optimize customer support, secure data, and overall strategy.
           </Heading>
-          <Text as="p" variant="heroSecondary" style={styles.banner.contentBox.textElements}>
+          <Text
+            as="p"
+            variant="heroSecondary"
+            style={styles.banner.contentBox.textElements}
+          >
             No matter what business model, industry, and degree of
             digitalization they are in.
           </Text>
@@ -58,16 +62,6 @@ export default function Banner() {
               Learn More
             </Button>
           </Flex>
-          {/* <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
-            <Box sx={styles.sponsorBox.sponsor}>
-              {data.map((item, index) => (
-                <Link path={item.path} key={`client-key${index}`}>
-                  <Image src={item.image} alt={item.title} />
-                </Link>
-              ))}
-            </Box>
-          </Flex> */}
         </Box>
       </Container>
     </section>
@@ -78,7 +72,8 @@ const styles = {
   color: "#2F5392",
   banner: {
     overflow: ["hidden", "initial", null, "hidden"],
-    // backgroundImage: `url(${BannerBG})`,
+    background:
+      "linear-gradient(-45deg, rgba(42,72,125, 0.3) 25%, transparent 25%, transparent 50%, rgba(42,72,125, 0.3) 50%, rgba(42,72,125, 0.3) 75%, transparent 75%, transparent)",
     backgroundRepeat: `no-repeat`,
     backgroundPosition: "top left",
     backgroundSize: "cover",
@@ -96,7 +91,15 @@ const styles = {
       flexShrink: 0,
       pt: [0, null, null, null, null, null, 5, 7],
       textElements: {
-        textAlign: ["left", "center" , "center" , "center" , "center" ,"center" , "center"],
+        textAlign: [
+          "left",
+          "center",
+          "center",
+          "center",
+          "center",
+          "center",
+          "center",
+        ],
       },
     },
   },

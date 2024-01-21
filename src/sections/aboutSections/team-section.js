@@ -16,8 +16,8 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: "Saimon Harmer",
-    title: "Saimon Harmer",
+    altText: "Morten Smedegard",
+    title: "Morten Smedegard",
     designation: "CEO and Founder",
     socialProfile: [
       {
@@ -43,9 +43,9 @@ const data = [
   {
     id: 2,
     imgSrc: Member2,
-    altText: "Aaron Nunez",
-    title: "Aaron Nunez",
-    designation: "Founder",
+    altText: "Trevor Mugo",
+    title: "Trevor Mugo",
+    designation: "Developer",
     socialProfile: [
       {
         id: 1,
@@ -70,9 +70,9 @@ const data = [
   {
     id: 3,
     imgSrc: Member3,
-    altText: "Aaron Nunez",
-    title: "Aaron Nunez",
-    designation: "Web Designer",
+    altText: "Patrcia Mugo",
+    title: "Patrcia Mugo",
+    designation: "Administrator",
     socialProfile: [
       {
         id: 1,
@@ -126,7 +126,7 @@ const data = [
     imgSrc: Member5,
     altText: "Saimon Harmer",
     title: "Saimon Harmer",
-    designation: "CEO and Founder",
+    designation: "Web Designer",
     socialProfile: [
       {
         id: 1,
