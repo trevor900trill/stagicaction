@@ -29,7 +29,7 @@ export default function IndexPage() {
           {/* <WorkFlow /> */}
           {/* <SecurePayment /> */}
           <Package />
-          {/* <PartnerSection /> */}
+          {/* <PartnerSection />  */}
           <TestimonialCard />
           <Subscribe />
           {/* <Faq /> */}

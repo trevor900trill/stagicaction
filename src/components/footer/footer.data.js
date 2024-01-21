@@ -35,7 +35,7 @@ export default {
       label: 'Home',
     },
     {
-      path: '/',
+      path: '/about',
       label: 'About Us',
     },
     {

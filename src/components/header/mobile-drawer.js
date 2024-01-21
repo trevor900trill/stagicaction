@@ -12,6 +12,7 @@ import {
   FaDribbble,
 } from 'react-icons/fa';
 import menuItems from './header.data';
+import { useRouter } from "next/router";
 
 const social = [
   {
@@ -33,6 +34,8 @@ const social = [
 ];
 
 const MobileDrawer = () => {
+  const router = useRouter();
+  const routeName = router.route;
   const { state, dispatch } = useContext(DrawerContext);
 
   // Toggle drawer
@@ -59,7 +62,7 @@ const MobileDrawer = () => {
       <Scrollbars autoHide>
         <Box sx={styles.content}>
           <Box sx={styles.menu}>
-            {menuItems.map(({ path, label }, i) => (
+            {menuItems.filter(item => item.ref === routeName).map(({ path, label }, i) => (
               <Link
                 activeClass="active"
                 to={path}
