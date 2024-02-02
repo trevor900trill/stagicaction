@@ -35,16 +35,12 @@ export default {
       label: 'Home',
     },
     {
-      path: '/',
+      path: '/about',
       label: 'About Us',
     },
     {
-      path: '/',
+      path: '/support',
       label: 'Support',
-    },
-    {
-      path: '/',
-      label: 'Contact',
     },
   ],
 };

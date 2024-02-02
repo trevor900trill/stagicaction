@@ -15,6 +15,7 @@ import SecurePayment from "sections/secure-payment";
 import Package from "sections/package";
 import Faq from "sections/faq";
 import Subscribe from "../sections/subscribe";
+import Clients from "../sections/clients";
 
 export default function IndexPage() {
   return (
@@ -29,8 +30,9 @@ export default function IndexPage() {
           {/* <WorkFlow /> */}
           {/* <SecurePayment /> */}
           <Package />
-          {/* <PartnerSection /> */}
-          <TestimonialCard />
+          {/* <PartnerSection />  */}
+          <Clients />
+          {/* <TestimonialCard /> */}
           <Subscribe />
           {/* <Faq /> */}
         </Layout>
